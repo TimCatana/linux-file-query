@@ -15,7 +15,7 @@ void printTreeStats(struct stat stats, char *name);
   * @importantnote: nameList and pathList MUST have files in the same order.
   *                 that is, nameList[i] = pathList[i]
   *                 Example:
-  *                 nameList[1] = lol.txt THEREFORE pathList[i] = <path>/lol.txt 
+  *                 nameList[i] = lol.txt THEREFORE pathList[i] = <path>/lol.txt 
   * @param nameList (char**) The list of file names in increasing order by inode
   * @param pathList (char**) The list of paths in increasint order by inode
   * @param numFiles (int) The number of files in nameList and pathList
