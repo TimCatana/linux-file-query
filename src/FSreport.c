@@ -134,8 +134,5 @@ int main(int argc, char **argv) {
         getDirContents(argv[2], argv[2], 1, INODE);
     }
 
-    // start with true recursive call, cause then it becomes false immediately on first call
-    // getDirContents(argv[2], argv[2], 1);
-
     return 0;
 }
